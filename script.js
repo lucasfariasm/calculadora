@@ -30,7 +30,7 @@ buttons.forEach(item => item.disabled = true)
 
 checkboxTurnOn.addEventListener('change',function(){{
   if(!this.checked){
-    buttons.forEach(item => item.disabled = true);
+    buttons.forEach(item => item.disabled = true); 
 
     output.innerHTML = "";
   }else {
