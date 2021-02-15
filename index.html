@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://kit.fontawesome.com/1c2c2462bf.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="./styles.css">
+  <title>Calculadora</title>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <span>
+        <label>
+          <input type="checkbox" name="turnOn">
+          <span class="btn"></span>
+          <i class="fas fa-lightbulb"></i>
+        </label>
+      </span>
+      <span>Calculadora</span>
+      <span>
+        <label>
+            <input type="checkbox" name="theme">
+            <span class="btn"></span>
+            <i class="fas fa-moon"></i>
+        </label>
+      </span>
+    </header>
+    <div class="results">
+      <div class="history">
+        <p class="upper-value"></p>
+      </div>
+      <div class="output">
+        <p class="lower-value"></p>
+      </div>
+    </div>
+    <div id="keyboard">
+      <div class="group">
+        <div class="top-section">
+          <button class="operator" id="clear">C</button>
+          <button class="operator" id="backspace"><i class="fas fa-backspace"></i></button>
+          <button class="operator" id="%">%</button>
+        </div>
+        <div class="numbersSection">
+          <div>
+            <button class="number" id="7">7</button>
+            <button class="number" id="8">8</button>
+            <button class="number" id="9">9</button>
+          </div>
+          <div>
+            <button class="number" id="4">4</button>
+            <button class="number" id="5">5</button>
+            <button class="number" id="6">6</button>
+          </div>
+          <div>
+            <button class="number" id="1">1</button>
+            <button class="number" id="2">2</button>
+            <button class="number" id="3">3</button>
+          </div>
+          <div>
+            <button class="number" id="00">00</button>
+            <button class="number" id="0">0</button>
+            <button class="number" id=".">.</button>
+          </div>
+        </div>
+      </div>
+      <div class="side-section">
+        <button class="operator" id="/">/</button>
+        <button class="operator" id="*">*</button>
+        <button class="operator" id="-">-</button>
+        <button class="operator" id="+">+</button>
+        <button class="operator equal" id="=">=</button>
+      </div>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
