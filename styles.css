@@ -64,14 +64,17 @@ button{
   color: var(--color-text);
   font-size: 18px;
 }
+
 .header span:nth-child(1),
 .header span:nth-child(3){
   cursor: pointer;
   font-size: 15px;
 }
+
 .header span:nth-child(2){
   margin-top: 5px;
 }
+
 .header span:nth-child(2)::after{
   width: 115px;
   content: '';
