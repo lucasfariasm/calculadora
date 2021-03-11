@@ -6,6 +6,10 @@
 <h2> Sobre </h2>
 
 - Projeto de calculadora usando JavaScript puro.
+
+<h2> Tecnologias Utilizadas</h2>
+
+- HTML + Css + JavaScript
 <h2> Como testar </h2>
 
 - Clone o repositório em sua máquina usando o seguinte comando: git clone https://github.com/lucasfariasm/calculadora.git
